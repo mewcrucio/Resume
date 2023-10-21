@@ -5,7 +5,7 @@ body {
     margin: 0;
     padding: 0;
 
-    background-image:url(image/animesher.com_water-ocean-gif-2028634.gif);
+    background-image:url(img/animesher.com_water-ocean-gif-2028634.gif);
     background-size: cover;
     background-attachment: fixed;
     background-repeat:  no-repeat;
@@ -13,7 +13,7 @@ body {
 
 header {
     
-    background-image: url(image/ทะเล.gif);
+    background-image: url(img/ทะเล.gif);
     background-size: cover;
     color: #fffc48;
     text-align: center;
