@@ -1,0 +1,86 @@
+
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+
+    background-image:url(image/animesher.com_water-ocean-gif-2028634.gif);
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat:  no-repeat;
+}
+
+header {
+    
+    background-image: url(image/ทะเล.gif);
+    background-size: cover;
+    color: #fffc48;
+    text-align: center;
+    padding: 30px;
+    font-size: 40px;
+    transform: skew(-16deg, 0deg);
+
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+nav li {
+    display: inline;
+    margin: 0 10px;
+}
+
+section {
+    margin: 20px;
+    padding: 20px;
+    font-size: 20px;
+
+   
+}
+.logo{
+    margin-left: 25px;
+    position: relative;
+    animation-name: example;
+    animation-duration: 4s;
+    border-radius: 100%;
+    object-fit: cover;
+    box-shadow: 0px 2px 7px 7px #fffc48;
+}
+
+@keyframes example {
+    0%    {left:0px; right:0px;}
+    50%   {left:1000px; right:0px;}
+    100%  {left:0px; right:2000px;}}
+.social{
+    height: 70px;
+    width: 70px;
+    border-radius: 100%;
+    margin: 10px;}
+.name{
+    margin: 10px;
+}
+.slogan{
+    margin: 10px;
+    padding: 30;
+}
+h2{
+
+    background-color: aquamarine;
+    width: 300px;
+}
+#container {
+    position: absolute;
+    width: 200px;
+    height: 200px;
+    margin-top: 2200px;
+    margin-left: 900px;
+    transform: rotate(45deg);
+    top: 0; bottom: 0; left: 0; right: 0;
+    color: #fffc48;
+}
+
